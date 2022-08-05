@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    margin: 6vh 0;
+    padding: 0 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+}
+
+.note-form {
+    width: 50%;
+    text-align: center;
+}
+
+.card-text.index {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card.view {
+    width: 60%;
+}
+
+svg, .btn-close {
+    margin-left: auto;
+}
+
+textarea.card-text {
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+    resize: none;
+}
+
+a[href="/add"],
+a[href="/add"]:hover {
+    color: white;
+}
+
+a[href="/add"] svg {
+    fill: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 a:hover {
+    color: #0a58ca !important;
+}
+
+body.bg-dark h1,
+body.bg-dark h2 {
+    color: rgb(248, 249, 250);
+}
+
+body.bg-dark h2 a {
+    color: rgb(248, 249, 250);
+}
+
+.link-svg-container {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+
+.youtube.link-svg-container {
+    top: 0px;
+}
+
+#youtube-link:hover {
+    color: red !important;
+}
+
+.card.bg-dark {
+    border-color: #6c757d !important;
+}
+
+.card.btn-light.bg-dark:hover {
+    border-color: #f8f9fa !important;
+}
+
+.dropdown-item.text-light:hover {
+    background-color: #6c757d;
+}
+
+body.bg-dark input::placeholder,
+body.bg-dark textarea::placeholder {
+    color: rgb(180, 180, 180);
+}
+
+body.bg-dark h6 {
+    color: rgb(160, 160, 160) !important;
+}
+
+.nav-link[href='/login'].active,
+.nav-link[href='/login']:hover,
+.nav-link[href='/register'].active,
+.nav-link[href='/register']:hover {
+    color: #003e99;
+}
+
+/* nav-links in dark mode */
+body.bg-dark .nav-link[href='/login'],
+body.bg-dark .nav-link[href='/register'] {
+    color: #5097ff;
+}
+
+body.bg-dark .nav-link[href='/login'].active,
+body.bg-dark .nav-link[href='/login']:hover,
+body.bg-dark .nav-link[href='/register'].active,
+body.bg-dark .nav-link[href='/register']:hover {
+    color: #9cc4ff;
+}
