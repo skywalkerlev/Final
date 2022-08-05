@@ -24,7 +24,7 @@ script.js
 
 Реалізація темного/світлого режиму
 
-У «script.js» ми визначаємо властивість (змінна всередині об’єкта в JavaScript) об’єкта localStorage, який зберігає поточну тему (або «світлу», або «темну»).
+У «script.js» ми визначаємо властивість (змінна всередині об’єкта в JavaScript) об’єкта localStorage, який зберігає поточну тему (або "light", або "dark").
 
 if (!localStorage.getItem("currentTheme")) {
   localStorage.setItem("currentTheme", "light");
